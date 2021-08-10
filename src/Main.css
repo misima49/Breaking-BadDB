@@ -1,0 +1,52 @@
+.main {
+	padding: 2.5rem;
+	padding-bottom: 2rem;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+
+.main .container {
+	padding-top: 5rem;
+}
+
+.sectionTitle {
+	display: flex;
+	justify-content: space-between;
+}
+
+h2 {
+	font-size: 1.2rem;
+	text-align: left;
+}
+
+.container p {
+	font-weight: bold;
+}
+
+
+.filter-bar {
+	background-color: #ffff;
+	font-size: 2em;
+	margin: auto;
+	padding: 0.6rem;
+	text-align: center;
+	width: 95%;
+}
+
+.filter-bar input {
+	border: none;
+	font-size: 1rem;
+	width: 80%;
+	margin: auto;
+}
+
+.filter-bar button {
+	background-color: #3f0e40;
+	color: #fff;
+	font-size: 1rem;
+	border-radius: 10px;
+	padding: 0.7rem 1.3rem;
+}
+
+
+

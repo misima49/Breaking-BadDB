@@ -1,0 +1,56 @@
+.character {
+    background-color: #ffff;
+    border-radius: 20px;
+    margin: 2rem 2.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.character img {
+    border-radius: 10px;
+    margin-right: 10rem;
+    width: 30%;
+}
+
+.character-details {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.character-details span {
+    color: #a9a9a9;
+}
+
+.character-details h1,
+p {
+    text-align: left;
+}
+
+.character a {
+    background-color: blue;
+}
+
+.character .quotes {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.character .quotes h3 {
+    color: #a9a9a9;
+}
+
+.character button {
+    background-color: #3f0e40;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 0.7rem 1.3rem;
+}
+
+.character button:hover {
+  background-color: #ddd;
+  color: black;
+}
