@@ -9,14 +9,8 @@ function Main() {
 
     const [name, setName] = useState("");
 
-    // const handleSubmit = (evt) => {
-    //     evt.preventDefault();
-    //     alert(`Submitting Name ${name}`)
-    //     setDisplayCard(<Table props = {name}/>)
-    // }
 
     function OnCardClick(test) {
-        alert("card clicked");
         setDisplayCard(<CharaCard props={test}/>);
     }
 

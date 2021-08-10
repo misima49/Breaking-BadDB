@@ -26,6 +26,7 @@ function FetchData(props) {
                                 <th className="column">Name</th>
                                 <th className="column">Occupation</th>
                                 <th className="column">Date of Birth</th>
+                                <th className="column">More Info</th>
                             </tr>
                         </thead>
 
